@@ -1,0 +1,27 @@
+{
+  "name": "snake",
+  "version": "2.0.7",
+  "description": "snake",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "build:production": "gulp build --production"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inject": "^5.0.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-util": "^3.0.8",
+    "husky": "^4.2.3",
+    "tsify": "^4.0.1",
+    "typescript": "^3.8.3",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "author": "Vishesh Luthra",
+  "license": "ISC"
+}

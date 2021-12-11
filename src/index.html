@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="dist/styles.css">
+    <!-- endinject -->
+</head>
+
+<body bgcolor="#999966">
+
+    <div class="wrapper">
+        <div class="panel">
+            <span class="panel__section"> &nbsp; &nbsp;
+               <b> Score: <span class="panel__score">0</span>
+                Speed: <span class="panel__speed">1</span> </b>
+            </span>
+            <span class="panel__section panel__section--center"><b>Controls:</b> ↑ ↓ → ← &nbsp; &nbsp;  Space to pause &nbsp; &nbsp;  Enter(start/restart) </span>
+            <span class="panel__section"></span>
+        </div>
+
+        <div class="popup popup--start">
+            <button class="popup__button popup__button--start">START</button>
+        </div>
+
+        <div class="popup popup--pause">
+            <p class="popup__text">GAME PAUSED</p>
+        </div>
+
+        <div class="popup popup--final">
+            <p class="popup__text">
+                YOUR SCORE: <span class="popup__final-score"></span>
+            </p>
+            <br>
+            <button class="popup__button popup__button--start">Restart</button>
+        </div>
+
+        <canvas class="battlefield"></canvas>
+    </div>
+
+    <!-- inject:js -->
+    <script src="dist/bundle.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

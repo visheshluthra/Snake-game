@@ -1,18 +1,20 @@
 # Snake-game
--Snake game implemented with typescript and canvas
+Snake game implemented with typescript and canvas
 
 #CONTROLS: 
 
-\Use arrow keys to control the snake: up, down, right, left
-\pause game: space bar
-\start: press enter
-\restart: press enter
+<br />Use arrow keys to control the snake: up, down, right, left
+<br />pause game: space bar
+<br />start: press enter
+<br />restart: press enter
 
 #TO START THE GAME TYPE IN CMD:
+<br />cd snake  ( make sure yare in the directory which had this file)
+<br />npm install
+<br />npm start
+<br />
+<br />
+<br />port to open: http://localhost:8000/
 
-\cd snake
-\npm install
-\npm start
-\
-\
-\port to open: http://localhost:8000/
+# Pre- requisites:
+<br />Install node.js and make sure you have all node modules
